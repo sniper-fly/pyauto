@@ -8,7 +8,7 @@ import time
 
 default_pause_time = 0.1
 
-x, y = pyautogui.locateCenterOnScreen('translate_button.png', grayscale=True)
+x, y = pyautogui.locateCenterOnScreen('translate_button.png', grayscale=True, confidence=0.9)
 beginning_cursor_position = pyautogui.position()
 pyautogui.click(x, y)
 time.sleep(default_pause_time)
