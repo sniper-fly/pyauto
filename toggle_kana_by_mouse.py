@@ -9,10 +9,11 @@ import time
 
 ## 下の画面の設定をクリックする座標
 x = 2275
-top_bar_input_setting_coord = (x, 1096)
-mozc_coord = (x, 1191)
-input_mode_coord = (x, 1245)
-kana_mode_coord = (x, 1316)
+y = 2173
+top_bar_input_setting_coord = (x, y)
+mozc_coord = (x, y + 95)
+input_mode_coord = (x, y + 147)
+kana_mode_coord = (x, y + 218)
 
 default_pause_time = 0.1
 
